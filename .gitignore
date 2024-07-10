@@ -1,13 +1,24 @@
-# Ignore build files
-/build/
-
-# Ignore IDE files
-/.idea/
-/*.iml
-
-# Ignore compiled files
+# Java
 *.class
+*.jar
+*.war
+*.ear
 
-# Ignore logs and temporary files
-*.log
-*.tmp
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Otros
+.DS_Store
+.gradle/
+build/
