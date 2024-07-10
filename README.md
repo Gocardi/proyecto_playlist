@@ -5,6 +5,7 @@
 Este proyecto es una aplicación de gestión de listas de reproducción de canciones. Permite agregar, eliminar, cambiar el orden y reproducir aleatoriamente las canciones. La base de datos de canciones está almacenada en un archivo CSV.
 
 ## Estructura del Proyecto
+~~~bash 
 .
 ├── README.md
 ├── build.gradle
@@ -39,6 +40,7 @@ Este proyecto es una aplicación de gestión de listas de reproducción de canci
         └── java
             ├── PlaylistTest.java
             └── SongTest.java
+~~~
 
 ## Comandos Gradle
 
