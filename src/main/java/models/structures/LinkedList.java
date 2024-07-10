@@ -9,6 +9,10 @@ public class LinkedList {
         this.head = null;
     }
 
+    public Node getHead() {
+        return head;
+    }
+
     public void addSong(Song song) {
         Node newNode = new Node(song);
         if (head == null) {

@@ -10,4 +10,12 @@ public class Node {
         this.song = song;
         this.next = null;
     }
+
+    public Song getSong() {
+        return song;
+    }
+
+    public Node getNext() {
+        return next;
+    }
 }
