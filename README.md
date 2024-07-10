@@ -5,7 +5,40 @@
 Este proyecto es una aplicación de gestión de listas de reproducción de canciones. Permite agregar, eliminar, cambiar el orden y reproducir aleatoriamente las canciones. La base de datos de canciones está almacenada en un archivo CSV.
 
 ## Estructura del Proyecto
-project-root/ │ ├── src/ │   ├── main/ │   │   ├── java/ │   │   │   ├── App.java │   │   │   ├── Main.java │   │   │   ├── controllers/ │   │   │   │   ├── AddSongController.java │   │   │   │   ├── RemoveSongController.java │   │   │   │   ├── ChangeOrderController.java │   │   │   │   └── ShuffleController.java │   │   │   ├── models/ │   │   │   │   ├── Playlist.java │   │   │   │   ├── Song.java │   │   │   │   └── structures/ │   │   │   │       ├── LinkedList.java │   │   │   │       ├── Node.java │   │   │   │       ├── BinarySearchTree.java │   │   │   │       ├── BSTNode.java │   │   │   │       ├── HashTable.java │   │   │   │       └── Heap.java │   ├── test/ │   │   └── java/ │   │       ├── PlaylistTest.java │   │       └── SongTest.java │ ├── data/ │   └── songs.csv │ ├── docs/ │   ├── project_report.pdf │   └── presentation.pdf │ ├── lib/ │   └── (bibliotecas externas si es necesario) │ ├── build.gradle ├── settings.gradle ├── gradlew ├── gradlew.bat ├── README.md └── .gitignore
+.
+├── README.md
+├── build.gradle
+├── data
+│   └── songs.csv
+├── docs
+│   ├── presentation.pdf
+│   └── project_report.pdf
+├── lib
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       ├── App.java
+    │       ├── Main.java
+    │       ├── controllers
+    │       │   ├── AddSongController.java
+    │       │   ├── ChangeOrderController.java
+    │       │   ├── RemoveSongController.java
+    │       │   └── ShuffleController.java
+    │       └── models
+    │           ├── Playlist.java
+    │           ├── Song.java
+    │           └── structures
+    │               ├── BSTNode.java
+    │               ├── BinarySearchTree.java
+    │               ├── HashTable.java
+    │               ├── Heap.java
+    │               ├── LinkedList.java
+    │               └── Node.java
+    └── test
+        └── java
+            ├── PlaylistTest.java
+            └── SongTest.java
 
 ## Comandos Gradle
 
