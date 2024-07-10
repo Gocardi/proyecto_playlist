@@ -1,0 +1,13 @@
+# Ignore build files
+/build/
+
+# Ignore IDE files
+/.idea/
+/*.iml
+
+# Ignore compiled files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
