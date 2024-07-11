@@ -158,7 +158,8 @@ public class App {
                         values[5], Double.parseDouble(values[6]), Double.parseDouble(values[7]), Integer.parseInt(values[8]),
                         Double.parseDouble(values[9]), Integer.parseInt(values[10]), Double.parseDouble(values[11]),
                         Double.parseDouble(values[12]), Double.parseDouble(values[13]), Double.parseDouble(values[14]),
-                        Double.parseDouble(values[15]), Double.parseDouble(values[16]), Integer.parseInt(values[17])
+                        Double.parseDouble(values[15]), Double.parseDouble(values[16]), Integer.parseInt(values[17]),
+                        Integer.parseInt(values[18])
                 );
                 playlist.addSong(song);
             }

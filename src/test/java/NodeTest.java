@@ -26,7 +26,7 @@ class NodeTest {
     void testGetNext() {
         assertNull(node.getNext());
         Node nextNode = new Node(new Song("Artist2", "Track2", "2", 70, 2021, "Genre2", 0.6, 0.7, 2, -6.0, 0, 0.06, 0.3, 0.1, 0.4, 0.6, 130.0, 200000, 4));
-        node.next = nextNode;
+        node.setNext(nextNode);
         assertEquals(nextNode, node.getNext());
     }
 }

@@ -45,7 +45,7 @@ public class Playlist {
         Node current = songs.getHead();
         while (current != null) {
             System.out.println(current.getSong());
-            current = current.next;
+            current = current.getNext();
         }
     }
 
@@ -56,7 +56,7 @@ public class Playlist {
         int index = 0;
         while (current != null) {
             array[index++] = current.getSong();
-            current = current.next;
+            current = current.getNext();
         }
         return array;
     }
@@ -66,8 +66,11 @@ public class Playlist {
         Node current = songs.getHead();
         while (current != null) {
             size++;
-            current = current.next;
+            current = current.getNext();
         }
         return size;
+    }
+    public Node getHead() {
+      return songs.getHead();
     }
 }

@@ -64,7 +64,7 @@ class PlaylistTest {
         var current = playlist.getHead();
         while (current != null) {
             size++;
-            current = current.next;
+            current = current.getNext();
         }
         return size;
     }
