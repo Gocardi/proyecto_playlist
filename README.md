@@ -71,8 +71,8 @@ Este proyecto es una aplicación de biblioteca de música que permite gestionar 
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd music-library
+   git clone https://github.com/Gocardi/proyecto_playlist.git
+   cd proyecto_playlist
    ```
 
 2. **Instalar JDK y Gradle (en Termux)**:
