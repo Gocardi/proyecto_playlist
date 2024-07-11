@@ -1,18 +1,27 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group 'com.example'
-version '1.0-SNAPSHOT'
+group = 'com.yourcompany'
+version = '1.0.0'
+
+sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    // Dependencias de JUnit para pruebas unitarias
+    // Aquí puedes agregar dependencias adicionales si las necesitas
+    // Por ejemplo, para JUnit (testing):
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.1'
+}
+
+application {
+    // Define the main class for the application
+    mainClass = 'main.java.App'
 }
 
 test {

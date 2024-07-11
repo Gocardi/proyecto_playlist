@@ -56,6 +56,7 @@ public class App {
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
+                    break;
             }
         } while (choice != 0);
 
@@ -152,7 +153,7 @@ public class App {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
-                if (values.length < 18) continue;
+                if (values.length < 19) continue;
                 Song song = new Song(
                         values[0], values[1], values[2], Integer.parseInt(values[3]), Integer.parseInt(values[4]),
                         values[5], Double.parseDouble(values[6]), Double.parseDouble(values[7]), Integer.parseInt(values[8]),
